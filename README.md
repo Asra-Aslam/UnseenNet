@@ -21,7 +21,7 @@ $ python3 UnseenNet.py --unseen_classname 'tunnel' --limit 2500  --top 10 --chro
 ```
 Necessary parameters: As the name suggests `--unseen_classname` is to provide name of unseen class like `tunnel`, `--limit` is the number of images to download for training, `--top` is the number of seen classes `UnseenNet` will use to perform Adaptation (0<top<=100), `--chromedriver` is to give the location of driver to download images. 
 
-Optional parameters: `yolo3_mobilenetv3small` is the default model type, `--weights_path` is also set default for `Strong Baseline Detector`, `annotation_file` is to communicate the location of annotations where UnseenNet will save the generated annotations,  `classes_path` is list of classes UnseenNet can detect, and `image` is presently to keep the UnseenNet in image-mode (not video) only.
+Optional parameters: `yolo3_mobilenetv3small` is the default model type, `--weights_path` is also set default for `Strong Baseline Detector`, `annotation_file` is to communicate the location of annotations where UnseenNet will save the generated annotations,  `classes_path` is list of classes UnseenNet can detect, `anchors_path` is recommended by YOLOv3, and `image` is presently used to keep the UnseenNet in image-mode (not video) only.
 
 Please note we also used the conventional format of annotations, i.e. 
 ```format
