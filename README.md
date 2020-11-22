@@ -23,7 +23,7 @@ Necessary parameters: As the name suggests `--unseen_classname` is to provide na
 
 Optional parameters: `yolo3_mobilenetv3small` is the default model type, `--weights_path` is also set default for `Strong Baseline Detector`, `annotation_file` is to communicate the location of annotations where UnseenNet will save the generated annotations,  `classes_path` is list of classes UnseenNet can detect, and `image` is presently to keep the UnseenNet in image-mode (not video) only.
 
-Please note we used the conventional format of annotations, i.e. 
+Please note we also used the conventional format of annotations, i.e. 
 ```format
 One row for one image in annotation file;
 Row format: image_file_path box1 box2 ... boxN;
