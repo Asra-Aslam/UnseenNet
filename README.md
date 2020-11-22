@@ -1,5 +1,7 @@
 # UnseenNet
 ## Introduction
+UnseenNet: LSDA-based Fast Training Detector for Unseen Concepts with No Bounding Boxes
+
 ## Requirements
 1. Python 3 on Ubuntu 16.04/18.04, tensorflow-gpu, keras, numpy, selenium etc. To install run:
 ```install
