@@ -1,12 +1,16 @@
 # UnseenNet
 ## Introduction
 ## Requirements
+1. Python 3 on Ubuntu 16.04/18.04, tensorflow-gpu, keras, numpy, selenium etc. To install run:
+```install
 $ sudo apt install python3-opencv
 $ pip install Cython
 $ pip install -r requirements.txt
-Download chromedriver: https://chromedriver.chromium.org/ and Save in UnseenNet/Googlechrome_Installation/
+```
+2. Download chromedriver: https://chromedriver.chromium.org/ and Save in UnseenNet/Googlechrome_Installation/
+3. Choose option of training for `unseen` concepts or directly use detcetion demo if you have weights file available.
 
-## Install
+
 ## Train
 ```train
 $ python3 main.py --top 10 --unseen_classname 'tunnel' --limit 2500 --chromedriver UnseenNet/Googlechrome_Installation/chromedriver --model_type yolo3_mobilenetv3small --weights_path YOLOv3_MobileNetv3/weights/Strong_Baseline_Detector_Weights.h5 --annotation_file Training_Data/annotations --classes_path YOLOv3_MobileNetv3/configs --anchors_path=YOLOv3_MobileNetv3/configs/yolo3_anchors.txt --image
