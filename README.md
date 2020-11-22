@@ -8,10 +8,13 @@ Download chromedriver: https://chromedriver.chromium.org/ and Save in UnseenNet/
 
 ## Install
 ## Train
-python3 main.py --top 10 --unseen_classname 'tunnel' --limit 2500 --chromedriver UnseenNet/Googlechrome_Installation/chromedriver --model_type yolo3_mobilenetv3small --weights_path YOLOv3_MobileNetv3/weights/Strong_Baseline_Detector_Weights.h5 --annotation_file Training_Data/annotations --classes_path YOLOv3_MobileNetv3/configs --anchors_path=YOLOv3_MobileNetv3/configs/yolo3_anchors.txt --image
+```train
+$ python3 main.py --top 10 --unseen_classname 'tunnel' --limit 2500 --chromedriver UnseenNet/Googlechrome_Installation/chromedriver --model_type yolo3_mobilenetv3small --weights_path YOLOv3_MobileNetv3/weights/Strong_Baseline_Detector_Weights.h5 --annotation_file Training_Data/annotations --classes_path YOLOv3_MobileNetv3/configs --anchors_path=YOLOv3_MobileNetv3/configs/yolo3_anchors.txt --image
+```
 ## Detect
-python3 Demo_Detect.py --model_type yolo3_mobilenetv3small --weights_path weights/building.h5 --classes_path configs/Building.txt --anchors_path=configs/yolo3_anchors.txt --image
-
+```demo
+$ python3 Demo_Detect.py --model_type yolo3_mobilenetv3small --weights_path weights/building.h5 --classes_path configs/Building.txt --anchors_path=configs/yolo3_anchors.txt --image
+```
 ## Cite
 Please cite UnseenNet (and following repositories used in UnseenNet) in your publications if it helps your research:
 
