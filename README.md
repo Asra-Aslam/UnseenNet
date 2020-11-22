@@ -42,12 +42,12 @@ It assumes we have trained weights available in `YOLOv3_MobileNetv3/weights/` an
 ```demo
 $ python3 YOLOv3_MobileNetv3/Demo_Detect.py --model_type yolo3_mobilenetv3small --weights_path weights/building.h5 --classes_path configs/Building.txt --anchors_path=configs/yolo3_anchors.txt --image   #----here unseen class name is `building`-------
 ```
-Additional paramters here includes..
+
 ## Cite
 Please cite UnseenNet (and following repositories used in UnseenNet) in your publications if it helps your research:
 
 ```cite
-anonymous, UnseenNet (2020) , GitHub repository
+Anonymous, UnseenNet (2020) , GitHub repository
 
 Google Images Download: https://github.com/hardikvasa/google-images-download
 
@@ -65,5 +65,5 @@ Redmon, Joseph, and Ali Farhadi. "YOLO9000: better, faster, stronger." Proceedin
 ```
 
 ## Contact
-anonymous, UnseenNet
+Anonymous, UnseenNet
 
