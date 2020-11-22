@@ -21,7 +21,8 @@ allanzelener, YAD2K: Yet Another Darknet 2 Keras (2017), GitHub repository
 
 Redmon, Joseph, and Ali Farhadi. "Yolov3: An incremental improvement." arXiv preprint arXiv:1804.02767 (2018).
 
-Redmon, Joseph, and Ali Farhadi. "YOLO9000: better, faster, stronger." Proceedings of the IEEE conference on computer vision and pattern recognition. 2017.```
+Redmon, Joseph, and Ali Farhadi. "YOLO9000: better, faster, stronger." Proceedings of the IEEE conference on computer vision and pattern recognition. 2017.
+```
 
 ## Contact
 anonymous, UnseenNet
