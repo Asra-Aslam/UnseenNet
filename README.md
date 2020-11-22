@@ -17,11 +17,11 @@ It is very easy to use UnseenNet to train for any unseen/new class. Here is an e
 ```train
 $ python3 main.py --unseen_classname 'tunnel' --limit 2500  --top 10 --chromedriver UnseenNet/Googlechrome_Installation/chromedriver --model_type yolo3_mobilenetv3small --weights_path YOLOv3_MobileNetv3/weights/Strong_Baseline_Detector_Weights.h5 --annotation_file Training_Data/annotations --classes_path YOLOv3_MobileNetv3/configs --anchors_path=YOLOv3_MobileNetv3/configs/yolo3_anchors.txt --image
 ```
-Necessary paramters: As the name suggests `--unseen_classname` is to prove name of unseen class like `tunnel`, `limit` is the number of images to donaload for training, top is the number of seen classes UnseenNet will use to perform Adaptation (0<top<=100), `chromedriver` is to give the location of driver to donalod images. 
+Necessary parameters: As the name suggests `--unseen_classname` is to prove name of unseen class like `tunnel`, `limit` is the number of images to donaload for training, top is the number of seen classes UnseenNet will use to perform Adaptation (0<top<=100), `chromedriver` is to give the location of driver to download images. 
 
-Optional paramters: `yolo3_mobilenetv3small` is the default model type, `--weights_path` is also set default for `Strong Baseline Detector`, `annotation_file` is to communicate the location of annotations where UnseenNet will save the generated annotations,  `classes_path` is list of classes UnseenNet can detect, and `image` is presently to keep the UnseenNet in image-mode (not video) only.
+Optional parameters: `yolo3_mobilenetv3small` is the default model type, `--weights_path` is also set default for `Strong Baseline Detector`, `annotation_file` is to communicate the location of annotations where UnseenNet will save the generated annotations,  `classes_path` is list of classes UnseenNet can detect, and `image` is presently to keep the UnseenNet in image-mode (not video) only.
 
-Please not we used the conventional format of annotations, i.e. 
+Please note we used the conventional format of annotations, i.e. 
 ```format
 One row for one image in annotation file;
 Row format: image_file_path box1 box2 ... boxN;
