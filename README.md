@@ -6,6 +6,8 @@
 ## Detect
 
 ## Cite
+Please cite UnseenNet (and following repositories used in UnseenNet) in your publications if it helps your research:
+
 ```cite
 anonymous, UnseenNet (2020) , GitHub repository
 
