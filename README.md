@@ -34,6 +34,7 @@ Box format: x_min,y_min,x_max,y_max,class_id (no space).
 ```demo
 $ python3 Demo_Detect.py --model_type yolo3_mobilenetv3small --weights_path weights/building.h5 --classes_path configs/Building.txt --anchors_path=configs/yolo3_anchors.txt --image
 ```
+Additional paramters here includes..
 ## Cite
 Please cite UnseenNet (and following repositories used in UnseenNet) in your publications if it helps your research:
 
@@ -57,3 +58,4 @@ Redmon, Joseph, and Ali Farhadi. "YOLO9000: better, faster, stronger." Proceedin
 
 ## Contact
 anonymous, UnseenNet
+
