@@ -10,7 +10,7 @@ $ pip install Cython
 $ pip install -r requirements.txt
 ```
 2. Download chromedriver: https://chromedriver.chromium.org/ and save file named "chromedriver" in UnseenNet/Googlechrome_Installation/
-3. Choose option of training for `unseen` concepts or directly use detcetion demo if you have weights file available.
+3. Choose option of training for `unseen` concepts or directly use detection demo if you have weights and classes path files available. However, for any new/unseen class always starts with `Train and Detect` as this will give you required files to use `Demo Detect` option.
 
 
 ## Train and Detect
