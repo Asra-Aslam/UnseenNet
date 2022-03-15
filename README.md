@@ -66,5 +66,5 @@ Redmon, Joseph, and Ali Farhadi. "YOLO9000: better, faster, stronger." Proceedin
 ```
 
 ## Contact
-Anonymous, UnseenNet
+Asra Aslam, asra.aslam.7@gmail.com, UnseenNet
 
