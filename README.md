@@ -45,7 +45,7 @@ $ python3 YOLOv3_MobileNetv3/Demo_Detect.py --model_type yolo3_mobilenetv3small 
 ```
 
 ## Cite
-Please cite UnseenNet (and following repositories used in UnseenNet) in your publications if it helps your research:
+Please cite our UnseenNet work below (published in CVPR 2022) in your publications if it helps your research:
 
 ```cite
 Aslam, Asra. "Detecting Objects in Less Response Time for Processing Multimedia Events in Smart Cities." Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2022.
