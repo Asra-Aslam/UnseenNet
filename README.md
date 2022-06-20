@@ -48,21 +48,9 @@ $ python3 YOLOv3_MobileNetv3/Demo_Detect.py --model_type yolo3_mobilenetv3small 
 Please cite UnseenNet (and following repositories used in UnseenNet) in your publications if it helps your research:
 
 ```cite
-Anonymous, UnseenNet (2020) , GitHub repository
+Aslam, Asra. "Detecting Objects in Less Response Time for Processing Multimedia Events in Smart Cities." Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2022.
 
-Google Images Download: https://github.com/hardikvasa/google-images-download
-
-david8862, TF Keras YOLOv4/v3/v2 Modelset (2019), GitHub repository
-
-Adam Yang, MobileNet-Yolov3 (2018), GitHub repository
-
-qqwweee, keras-yolo3 (2018), GitHub repository
-
-allanzelener, YAD2K: Yet Another Darknet 2 Keras (2017), GitHub repository
-
-Redmon, Joseph, and Ali Farhadi. "Yolov3: An incremental improvement." arXiv preprint arXiv:1804.02767 (2018).
-
-Redmon, Joseph, and Ali Farhadi. "YOLO9000: better, faster, stronger." Proceedings of the IEEE conference on computer vision and pattern recognition. 2017.
+Aslam, Asra, and Edward Curry. "UnseenNet: Fast Training Detector for Any Unseen Concept." arXiv preprint arXiv:2203.08759 (2022).
 ```
 
 ## Contact
