@@ -11,7 +11,8 @@ $ pip install -r requirements.txt
 ```
 2. Download chromedriver: https://chromedriver.chromium.org/ and save file named "chromedriver" in UnseenNet/Googlechrome_Installation/
 3. Choose option of training for `unseen` concepts or directly use detection demo if you have weights and classes path files available. However, for any new/unseen class always starts with `Train and Detect` as this will give you required files to use `Demo Detect` option.
-
+4. Download Strong and Weak Baseline Detector Weights from https://drive.google.com/file/d/19WNdmtbT49GQdSuHHy0e7dodIvxlWJ2F/view?usp=sharing and https://drive.google.com/file/d/1_5mPIu2ivPvKp8UPM6-X_iitedZikYyG/view?usp=sharing 
+6. Place both weight files in folder UnseenNet/YOLOv3_MobileNetv3/weights
 
 ## Train and Detect
 It is very easy to use UnseenNet to train for any unseen/new class. Here is an example (ready to try):
